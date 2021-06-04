@@ -1,48 +1,69 @@
 <html>
 <head>
-<title> Wizard website </title>
-<link rel="sylesheet" href="style.css"> 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    </head>
-    
+<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-<nav class="blah-blah" style="position:sticky;top0;">
-<div class="go-go">
-<button type="button" class="ha-ha" data-toggle="colapse" data-target="#myNavbar">
-<span class="icpn-bar"></span>
-<span class="icpn-bar"></span>
-<span class="icpn-bar"></span>
-    </button>
-<a class="navbar-brand" href="s">coyote creek school</a>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Coyote Creek School Elementry School</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#campus_life">Campus Life</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#new">What's New</a></li>
+        <li><a href="#alumni">Alumni</a></li>
+        <li><a href="#contactUs">Contact Us</a></li>
+      </ul>
+    </div>
+</nav>
+
+<div class="announcement">
+  <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+    ***  Feel free to ask queries on ck.balpert@gmail.com  ***
+    </marquee>
+</div>
+ <iframe width="790" height="444" src="https://www.youtube.com/embed/WqdaLHiXgl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>">
+
+<div class="container">
+<div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+  <h2 class="text-capitalize ">Contact Us</h2>
 </div>
 
-<ul class="menu">
-<li class="links">Coyote Creek </li>
-<li class="links">Campus Life</li>
-<li class="links">Achievmnet</li>
-<li class="links">What's new</li>
-<li class="links">Alumni</li>
-    <li class="links">Contact us</li>
-    </ul>
-    </nav>
-
-<marquee id="marqueeStyle" onmouseover="this.start():">
-    
- feel free to ask queries on ck.balpert@srvusd.net
-</marquee>
-"<iframe width="689" height="388" src="https://www.youtube.com/embed/Xpa0MehXvmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
-
-
-
-
-<section id="Contact Us"> <h1>Contact Us</h1> <div class="line"></div> 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1600085.107689095!2d-122.67156052264988!3d38.43762927327096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808ff272703e774b%3A0xf3044e3ffb5780a0!2sCoyote%20Creek%20Elementary%20School!5e0!3m2!1sen!2sus!4v1622673116028!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>   
-    
-    
-    
-    
-    </section>
-
-
+<div id="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.515882259786!2d-121.92957178455323!3d37.77794821974961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808ff272703e774b%3A0xf3044e3ffb5780a0!2sCoyote%20Creek%20Elementary%20School!5e0!3m2!1sen!2sus!4v1622767932362!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+  <div id="details">
+    <img src="https://i.postimg.cc/RZMSc6hR/sp.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+    <h3>Principal Name: </h3>
+    <h4>Mr.Alpert </h4>
+        <div class="contact_1" >
+           <a href="mailto:school@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+            </a> 
+           <a href="#"> 
+               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;#coyotecreek</h5>
+            </a> 
+            <a href="#"> 
+              <h5><i class="fa fa-phone-square" ></i>&nbsp;&nbsp;(925) 855-7300</h5>
+           </a> 
+        </div>
+      </div>
+</div>
+<div id="footer"></div>
 </body>
+</html>
